@@ -38,14 +38,19 @@ export class PushService {
       icon: 'https://storage.googleapis.com/giiki-photos/media/%242b%2410%24.kwwW8jIsroslADRkB4YYux01fcpag4ilJZVMnTQ22rHArUXfOC6',
       image:
         'https://storage.googleapis.com/giiki-photos/media/%242b%2410%24Lc96474dVF4vdYgwQHzHusqld8hqHMjWCNQ67CTnd9R3zmYVxO5m',
+      data: {
+          time: new Date(Date.now()).toString(),
+          message: 'Hello, World!',
+          url:'google.com'
+        },
       actions: [
         {
-          action: 'coffee-action',
+          action: 'en.wikipedia.org/wiki/Coffee',
           title: 'Coffee',
           // icon: '/images/demos/action-1-128x128.png',
         },
         {
-          action: 'doughnut-action',
+          action: 'en.wikipedia.org/wiki/Doughnut',
           title: 'Doughnut',
           // icon: '/images/demos/action-2-128x128.png',
         },
